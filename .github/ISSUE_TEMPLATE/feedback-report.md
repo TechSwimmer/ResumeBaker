@@ -28,16 +28,3 @@ assignees: ""
 
 ### Screenshot / recording
 (optional)
-### What felt confusing
--
-
-### Bug (if any) and steps
-1.
-2.
-3.
-
-### Severity
-(low / medium / high)
-
-### Screenshot / recording
-(optional)
