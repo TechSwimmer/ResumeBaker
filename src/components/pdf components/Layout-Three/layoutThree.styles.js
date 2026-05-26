@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
     position:'relative',
     fontFamily: "Helvetica",
     fontSize: 12,
-    lineHeight: 1.5,
+    lineHeight: 1.3,
     color: "#333",
   },
   achievementsHead:{
@@ -16,8 +16,8 @@ const styles = StyleSheet.create({
   /* ===== HEADER ===== */
   header: {
     textAlign: "center",
-    marginBottom: 20,
-    paddingBottom: 12,
+    marginBottom: 8,
+    paddingBottom: 4,
     borderBottom: "2 solid #2c3e50",
   },
  
@@ -50,9 +50,9 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textTransform: "uppercase",
     color: "#2c3e50",
-    marginTop: 18,
-    marginBottom: 8,
-    paddingBottom: 4,
+    marginTop: 8,
+    marginBottom: 5,
+    paddingBottom: 2,
     borderBottom: "2 solid #3498db",
     textAlign:'left',
   },
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
 
   /* ===== EXPERIENCE ===== */
   expItem: {
-    marginBottom: 12,
+    marginBottom: 4,
   },
 
   expTitle: {
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
 
   /* ===== EDUCATION ===== */
   eduItem: {
-    marginBottom: 10,
+    marginBottom: 4,
   },
 
   eduDegree: {
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
 
   /* ===== PROJECTS ===== */
   projectItem: {
-    marginBottom: 14,
+    marginBottom: 4,
   },
 
   projectTitle: {
@@ -140,7 +140,7 @@ const styles = StyleSheet.create({
   projectDesc: {
     fontSize: 11,
     color: "#555",
-    marginBottom: 4,
+    marginBottom: 2,
   },
 
   link: {
@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
   tagRow: {
     flexDirection: "row",
     flexWrap: "wrap",
-    marginTop: 4,
+    marginTop: 2,
   },
 
   
@@ -166,7 +166,7 @@ const styles = StyleSheet.create({
   bulletRow: {
     flexDirection: "row",
     alignItems: "flex-start",
-    marginBottom: 3,
+    marginBottom: 1,
   },
 
   bulletSymbol: {
@@ -187,7 +187,7 @@ const styles = StyleSheet.create({
   paddingHorizontal: 6,
   paddingVertical: 3,
   marginRight: 4,
-  marginBottom: 4,
+  marginBottom: 2,
 
   alignItems: "center",
   justifyContent: "center",
@@ -221,7 +221,7 @@ tagText: {
   twoColumn: {
     flexDirection: "row",
     
-    marginTop:20,
+    marginTop:10,
    
   },
 
@@ -263,14 +263,14 @@ hobbyDescription: {
   fontStyle:"italic",
 },
  hobbyItem: {
-  marginBottom: 8,
+  marginBottom: 6,
 },
 
 /*----------Language------*/
 langItem:{
   flexDirection:'row',
   justifyContent:'space-between',
-  marginBottom:10
+  marginBottom:6
 },
 });
 
